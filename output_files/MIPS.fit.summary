@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sat Dec  9 18:16:46 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : MIPS
+Top-level Entity Name : and_mux
+Family : MAX V
+Device : 5M570ZF256C4
+Timing Models : Final
+Total logic elements : 32 / 570 ( 6 % )
+Total pins : 98 / 159 ( 62 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

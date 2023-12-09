@@ -1,0 +1,48 @@
+module alu_TB;
+
+  wire [31:0] operandA, operandB;
+  wire [3:0] operation;
+  reg [31:0] result;
+  wire zero;
+
+  // ALU instance
+  alu uut (
+    .operation(operation),
+    .result(result),
+    .zero(zero),
+    .operandA(operandA),
+    .operandB(operandB)
+  );
+
+  // Test sequence
+  initial begin
+    // Test 1
+    operation = 4'b0010; // Exemplo de operação
+    operandA = 8; // Exemplo de entrada A
+    operandB = 4; // Exemplo de entrada B
+
+    // Aguarda alguns ciclos antes de ler a saída
+    #1;
+
+    // Exibe os resultados
+    $display("Test 1: op = %b | A = %d | B = %d | R = %d | Zero = %b", operation, operandA, operandB, result, zero);
+
+    /*// Teste 2 (adicione mais testes conforme necessário)
+    opAlu = 2'b01; // Altere conforme necessário
+    funct = 6'b100010; // Altere conforme necessário
+    inputA = 12; // Altere conforme necessário
+    inputB = 6; // Altere conforme necessário
+
+    // Aguarda alguns ciclos antes de ler a saída
+    #10;
+
+    // Exibe os resultados
+    $display("Teste 2: op = %b", op);*/
+
+    // Adicione mais testes conforme necessário
+
+    // Finaliza a simulação
+    $finish;
+  end
+
+endmodule

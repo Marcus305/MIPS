@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/marcus/projetos/Verilog/TP_ARQIII/simulation/modelsim
+vand_mux
+Z1 !s110 1702156619
+!i10b 1
+!s100 Oh<J0dHXKhnQl`IEzJGnO1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF_5aGPc`f]SkfAgnUAFif3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702135780
+8/home/marcus/projetos/Verilog/TP_ARQIII/modules/and_mux.v
+F/home/marcus/projetos/Verilog/TP_ARQIII/modules/and_mux.v
+!i122 0
+L0 1 12
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1702156619.000000
+!s107 /home/marcus/projetos/Verilog/TP_ARQIII/modules/and_mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/marcus/projetos/Verilog/TP_ARQIII/modules|/home/marcus/projetos/Verilog/TP_ARQIII/modules/and_mux.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+/home/marcus/projetos/Verilog/TP_ARQIII/modules
+Z7 tCvgOpt 0
+vAND_MUX_TB
+R1
+!i10b 1
+!s100 d0QNM4lUJT3hEh[]IzSfX3
+R2
+I_NR<]S5L2P]7;0cMJVUIK0
+R3
+R0
+w1702156593
+8/home/marcus/projetos/Verilog/TP_ARQIII/test_benches/and_mux_TB.v
+F/home/marcus/projetos/Verilog/TP_ARQIII/test_benches/and_mux_TB.v
+!i122 1
+L0 1 37
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/marcus/projetos/Verilog/TP_ARQIII/test_benches/and_mux_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/marcus/projetos/Verilog/TP_ARQIII/test_benches|/home/marcus/projetos/Verilog/TP_ARQIII/test_benches/and_mux_TB.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/marcus/projetos/Verilog/TP_ARQIII/test_benches
+R7
+n@a@n@d_@m@u@x_@t@b

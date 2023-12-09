@@ -1,0 +1,30 @@
+module alu(
+	input [2:0]opcode,
+	input [31:0]opA, opB,
+	output reg [31:0]result
+);
+
+always @(*)begin
+case (instruction)
+3'b000:
+	result = opA + opB;
+3'b001:
+	result = opA - opB;
+3'b010:
+	result = opA * opB;
+3'b011:
+	result = opA / opB;
+3'b100: 
+	result = opA & opB;
+3'b101:
+	result = opA | opB;
+3'b110:
+	result = ~opA;
+3'b111:
+	result = opA ^ opA;
+default:
+	result = 0;
+	endcase
+end
+
+endmodule
